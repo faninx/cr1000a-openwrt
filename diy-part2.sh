@@ -12,3 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+
+# 一丢丢本地化
+sed -i "s/hostname='Openwrt'/hostname='CR1000A'/g" package/base-files/files/bin/config_generate
+sed -i "s/timezone='UTC'/timezone='CST-8'/g" package/base-files/files/bin/config_generate
