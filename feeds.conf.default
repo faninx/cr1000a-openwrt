@@ -5,6 +5,7 @@ src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git nsspackages https://github.com/robimarko/nss-packages.git
 #src-git nsspackages https://github.com/rmandrad/nss-packages.git
 #src-git nsspackages https://github.com/asvio/nss-packages.git
+#src-git nsspackages https://github.com/AgustinLorenzo/nss-packages.git
 #src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
