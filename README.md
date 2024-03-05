@@ -1,3 +1,30 @@
+#### Verizon CR1000A 硬件参数
+```
+CPU: IPQ8072A
+RAM: 2GB
+EMMC: 4GB
+Switch Chip: RTL9093
+10G Chip: 2 x AQC113C
+2.5G Chip: RTL8221B
+Radio 1: QCN5054
+Radio 2: QCN6024 (4x4 5G 4800Mbps)
+Radio 3: QCN9024 (4x4 6G 4800Mbps)
+```
+
+#### Openwrt 论坛讨论贴
+[Adding Support for Verizon CR1000A](https://forum.openwrt.org/t/adding-support-for-verizon-cr1000a/134605)
+
+#### 源码来源
+[tsg2k2/openwrt](https://github.com/tsg2k2/openwrt)
+
+#### 个人编译配置
+- 增加了中文语言包
+- 自带 AdGuard Home、MosDNS、DDNS-Go、OpenClash、ttyd、iperf3-server、tailscale、luci-app-eqosplus、luci-app-fileassistant、luci-app-statistics、luci-app-netdata 等一堆有的没的
+- 无 NSS 硬件加速
+
+---
+以下为原 Actions README，感谢 [P3TERX](https://p3terx.com/)
+
 **English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
 # Actions-OpenWrt
