@@ -19,7 +19,7 @@ Radio 3: QCN9024 (4x4 6G 4800Mbps)
 
 #### 个人编译配置
 - 增加了中文语言包
-- 自带 AdGuard Home、MosDNS、DDNS-Go、OpenClash、ttyd、iperf3-server、tailscale、luci-app-eqosplus、luci-app-fileassistant、luci-app-statistics、luci-app-netdata 等一堆有的没的
+- 自带 AdGuard Home、MosDNS、DDNS-Go、Passwall2、OpenClash、ttyd、iperf3-server、tailscale、luci-app-eqosplus、luci-app-fileassistant、luci-app-statistics、luci-app-netdata 等一堆有的没的
 - 无 NSS 硬件加速
 
 ---
